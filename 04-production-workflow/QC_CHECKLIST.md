@@ -1,0 +1,13 @@
+# QC Checklist
+- [ ] 30 shots exist and are ~9 seconds each
+- [ ] character faces/costumes/proportions are consistent
+- [ ] Japanese dialogue and lip sync match
+- [ ] English subtitles match
+- [ ] Dreadknot voice is fictional and not an imitation of a named actor
+- [ ] no unintended third-party logos
+- [ ] no watermarks
+- [ ] every asset has provenance
+- [ ] prompts/scripts/workflow are included
+- [ ] no secrets/API keys
+- [ ] attribution and license notes are included
+- [ ] SHA-256 manifest regenerated after final changes

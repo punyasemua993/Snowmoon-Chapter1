@@ -1,0 +1,640 @@
+{
+  "project": {
+    "title": "Snowmoon — Chapter 1: Meldan, Veridia",
+    "source": "Snowmoon Chapter 1.pdf",
+    "format": "AI anime short film",
+    "shot_duration_seconds": 9,
+    "total_shots": 30,
+    "estimated_runtime": "4m 30s",
+    "dubbing_language": "Japanese",
+    "subtitle_language": "English",
+    "voice_note": "Use natural Japanese anime-dub performances with distinct voice profiles per character. These are performance specifications, not claims of any specific real actor.",
+    "license_note": "The supplied chapter states Snowmoon is GPL v3 and says derivative movie/anime work requires open-sourcing the AI prompts, scripts, task-specific harness, and other non-commodity materials used to make it."
+  },
+  "global_visual_bible": {
+    "style": "high-end cinematic Japanese TV anime, mature sci-fi fantasy, hand-painted backgrounds, detailed character animation, subtle film grain, physically plausible motion, expressive eyes and body language, dramatic lighting, no chibi, no comedy deformation",
+    "ratio": "16:9",
+    "continuity": [
+      "Gladias: same adult male face, dark hair, calm eyes, loose dark-purple full-body Veridian Privacy Robe, hood, matching shoes, black hand device with cyan/green holographic UI in every applicable shot.",
+      "Seila: warm brown shoulder-length hair, calm eyes, practical muted earth-tone home clothes.",
+      "Zven: small energetic boy, short dark hair, bright home shirt.",
+      "Febric: lanky teenager, messy dark hair, casual shirt, hand device linked by cable to compact compute box.",
+      "Lily: younger girl, long dark hair, withdrawn posture, simple home clothes.",
+      "Veridia: clean medieval-inspired stone architecture, abundant greenery, understated advanced privacy technology."
+    ],
+    "negative": "inconsistent character identity, changing clothes, different hair color, malformed hands, extra fingers, plastic 3D, chibi, neon cyberpunk overload, photorealism, watermark, logo, text artifacts"
+  },
+  "characters": {
+    "Gladias": "adult male Japanese anime voice, low-mid register, calm intellectual delivery; restrained emotion, clipped urgent delivery in danger",
+    "Emerald": "warm clear gender-neutral/feminine-leaning synthetic Japanese voice, precise and calm",
+    "DreadknotSinger": "rough adult Japanese rock/metal vocalist, aggressive chest voice with controlled distortion",
+    "Seila": "adult female Japanese anime voice, warm medium register, relaxed domestic delivery",
+    "Zven": "energetic young Japanese boy voice, bright and fast",
+    "Febric": "teenage Japanese male voice, casual and slightly dry",
+    "Lily": "young Japanese girl voice, soft and withdrawn",
+    "CrowdMan": "adult male Japanese voice, sudden loud shout",
+    "GateAI": "neutral Japanese system voice",
+    "Anonymous": "text-only presence; no on-screen spoken voice"
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "duration_seconds": 9,
+      "scene": "Meldan forested footpath",
+      "visual_action": "Gladias walks beneath tall trees; pristine medieval stone houses sit among foliage.",
+      "camera": "slow rear tracking shot into side reveal",
+      "dubbing": [
+        {
+          "speaker": "Narrator",
+          "emotion": "quiet wonder",
+          "ja": "ヴェリディアの首都、メルダン。グラディアスは木々に囲まれた小道を歩いていた。",
+          "en": "Meldan, the capital of Veridia. Gladias walked along a path surrounded by trees."
+        }
+      ],
+      "keyframe_prompt": "Cinematic mature Japanese anime, Gladias in dark-purple full-body Veridian Privacy Robe walking through a pristine green medieval-futurist district, tall trees, clean stone houses hidden in foliage, soft morning light, wide establishing shot."
+    },
+    {
+      "id": "S02",
+      "duration_seconds": 9,
+      "scene": "Drone encounter",
+      "visual_action": "A small spherical toy drone passes overhead. Gladias checks his hand device; a green verification check appears.",
+      "camera": "low angle drone follow, cut to device close-up",
+      "dubbing": [
+        {
+          "speaker": "Emerald",
+          "emotion": "neutral informative",
+          "ja": "認証完了。玩具です。人間への接近制限も確認しました。",
+          "en": "Authentication complete. It is a toy. Its human-distance safety restriction is verified."
+        }
+      ],
+      "keyframe_prompt": "Detailed anime close-up, spherical toy drone with feather-like rotors above Gladias, green cryptographic verification symbol reflected on black hand device, subtle holographic UI, elegant technology integrated into greenery."
+    },
+    {
+      "id": "S03",
+      "duration_seconds": 9,
+      "scene": "Boy catches drone",
+      "visual_action": "A young boy jumps and catches the drone; family and younger siblings are behind him.",
+      "camera": "quick lateral pan following jump",
+      "dubbing": [
+        {
+          "speaker": "Zven",
+          "emotion": "excited shout",
+          "ja": "五点！僕の勝ち！",
+          "en": "Five points! I win!"
+        },
+        {
+          "speaker": "Narrator",
+          "emotion": "gentle observation",
+          "ja": "グラディアスは、再び静かな景色へ意識を戻した。",
+          "en": "Gladias returned his attention to the peaceful surroundings."
+        }
+      ],
+      "keyframe_prompt": "Dynamic anime action frame of excited young boy jumping and catching a spherical toy drone, family with four children and tricycles behind, Gladias calmly observing, lush clean footpath."
+    },
+    {
+      "id": "S04",
+      "duration_seconds": 9,
+      "scene": "Civic kindness",
+      "visual_action": "A grandmother approaches a bench; a seated couple immediately stands and offers the seats.",
+      "camera": "medium-wide observational dolly",
+      "dubbing": [
+        {
+          "speaker": "Narrator",
+          "emotion": "warm reflective",
+          "ja": "別の道では、見知らぬ人同士が自然に席を譲り合っていた。",
+          "en": "On another path, strangers naturally offered their seats to one another."
+        }
+      ],
+      "keyframe_prompt": "Warm cinematic anime scene, grandmother with small child approaching bench, young couple politely standing to offer seats, peaceful green urban environment, Gladias observing in distance, natural body language."
+    },
+    {
+      "id": "S05",
+      "duration_seconds": 9,
+      "scene": "Emerald explanation",
+      "visual_action": "Gladias walks while subtle holographic airflow and epidemic diagrams accompany Emerald.",
+      "camera": "side tracking with holographic visualization",
+      "dubbing": [
+        {
+          "speaker": "Emerald",
+          "emotion": "clear educational",
+          "ja": "換気量や人口密度の変化は、都市全体の感染者数に影響します。",
+          "en": "Changes in ventilation and population density can affect infection numbers across the city."
+        }
+      ],
+      "keyframe_prompt": "Sophisticated anime visualization of Gladias walking through greenery while cyan holographic airflow diagrams and city infection graphs emanate from hand device, elegant scientific interface, no cyberpunk excess."
+    },
+    {
+      "id": "S06",
+      "duration_seconds": 9,
+      "scene": "Sky bridge reveal",
+      "visual_action": "The path curves upward into a sky bridge above a busy road with cars, buses and autonomous delivery vehicles.",
+      "camera": "crane-up reveal from feet to panoramic city",
+      "dubbing": [
+        {
+          "speaker": "Narrator",
+          "emotion": "awe",
+          "ja": "やがて小道は空中橋へと変わり、静かな緑の下に都市の動脈が現れた。",
+          "en": "The path became a sky bridge, revealing the city arteries beneath the quiet greenery."
+        }
+      ],
+      "keyframe_prompt": "Epic anime city reveal, pristine sky bridge emerging from forested path, busy road far below, cars, buses and autonomous delivery vehicles, forested mountain and castle-tower apartments, cinematic scale."
+    },
+    {
+      "id": "S07",
+      "duration_seconds": 9,
+      "scene": "Enjoy the view",
+      "visual_action": "Gladias stops at the center of the bridge and looks toward the forested mountain.",
+      "camera": "slow orbit, wind moving robe",
+      "dubbing": [
+        {
+          "speaker": "Gladias",
+          "emotion": "soft private wonder",
+          "ja": "一時停止。景色を楽しみたい。",
+          "en": "Pause. I want to enjoy the view."
+        },
+        {
+          "speaker": "Narrator",
+          "emotion": "introspective",
+          "ja": "ヴェリディアの自然は、美しい。",
+          "en": "The nature of Veridia is beautiful."
+        }
+      ],
+      "keyframe_prompt": "Cinematic anime portrait of Gladias standing on sky bridge, robe and cloth covering moving in chilly breeze, forested mountain and ornate apartment towers beyond, contemplative mood."
+    },
+    {
+      "id": "S08",
+      "duration_seconds": 9,
+      "scene": "Vote notification",
+      "visual_action": "In a denser district his device buzzes: Vote on Badra St #1103.",
+      "camera": "device close-up to over-shoulder building reveal",
+      "dubbing": [
+        {
+          "speaker": "Emerald",
+          "emotion": "neutral system prompt",
+          "ja": "投票対象、バドラ通り一一〇三番。五階建て、青灰色の集合住宅です。",
+          "en": "Vote target: Badra Street 1103. Five-story blue-grey apartment building."
+        },
+        {
+          "speaker": "Gladias",
+          "emotion": "mild hesitation",
+          "ja": "なるほど……美観税か。",
+          "en": "I see... the aesthetics tax."
+        }
+      ],
+      "keyframe_prompt": "Anime over-shoulder shot, Gladias viewing a blue-grey five-story apartment building framed by trees and shops, translucent voting UI, elegant clean futuristic city."
+    },
+    {
+      "id": "S09",
+      "duration_seconds": 9,
+      "scene": "Comparing buildings",
+      "visual_action": "Gladias scans distinctive nearby buildings and spots an airplane-shaped corporate headquarters.",
+      "camera": "smooth POV scan with holographic lock-ons",
+      "dubbing": [
+        {
+          "speaker": "Gladias",
+          "emotion": "analytical, slightly amused",
+          "ja": "個性的な建物は、ずっと低い美観税だ。……あれは飛行機の形か。",
+          "en": "The distinctive buildings pay much lower aesthetics taxes. ...Is that one shaped like an airplane?"
+        }
+      ],
+      "keyframe_prompt": "Anime POV showing wood-and-stone building, rooftop garden, octahedral luxury building and distant airplane-shaped headquarters, holographic scanner highlights each, lush street."
+    },
+    {
+      "id": "S10",
+      "duration_seconds": 9,
+      "scene": "Quadratic voting dilemma",
+      "visual_action": "The voting slider fills frame; Gladias studies it and looks back at the building.",
+      "camera": "extreme eye close-up, slider close-up, slow push-in",
+      "dubbing": [
+        {
+          "speaker": "Narrator",
+          "emotion": "thoughtful",
+          "ja": "これは二次投票。方向だけでなく、感じた強さまで投じる仕組みだ。",
+          "en": "This was quadratic voting: not only the direction, but the strength of his feeling mattered."
+        },
+        {
+          "speaker": "Gladias",
+          "emotion": "uncertain",
+          "ja": "うーん……。",
+          "en": "Hmm..."
+        }
+      ],
+      "keyframe_prompt": "Intense anime close-up of Gladias eyes reflected with a clean holographic quadratic voting slider, blue-grey building blurred behind, subtle internal conflict."
+    },
+    {
+      "id": "S11",
+      "duration_seconds": 9,
+      "scene": "Select",
+      "visual_action": "Gladias moves the slider only slightly right and presses Select.",
+      "camera": "macro hand close-up then calm profile",
+      "dubbing": [
+        {
+          "speaker": "Gladias",
+          "emotion": "decisive but modest",
+          "ja": "これでいい。",
+          "en": "This feels right."
+        },
+        {
+          "speaker": "Narrator",
+          "emotion": "foreshadowing",
+          "ja": "それは、もっと重大な投票の前の、ただの小さな予行演習だった。",
+          "en": "It was only a small warm-up before a far more consequential vote."
+        }
+      ],
+      "keyframe_prompt": "Anime close-up of Gladias pressing glowing Select after moving slider slightly right, restrained expression, blue-grey building behind, foreshadowing."
+    },
+    {
+      "id": "S12",
+      "duration_seconds": 9,
+      "scene": "Concert gate",
+      "visual_action": "Gladias reaches a gate in the soundproof barrier; cryptographic proof is verified.",
+      "camera": "front tracking then scanner close-up",
+      "dubbing": [
+        {
+          "speaker": "GateAI",
+          "emotion": "neutral welcoming",
+          "ja": "認証済み。ようこそ。",
+          "en": "Verified. Welcome."
+        }
+      ],
+      "keyframe_prompt": "Cinematic anime concert entrance in tall green-blue soundproof barrier, Gladias in privacy robe holding device near glowing green circular scanner, crowd beyond."
+    },
+    {
+      "id": "S13",
+      "duration_seconds": 9,
+      "scene": "Inside concert",
+      "visual_action": "Huge open field, privacy robes and band shirts, people dancing, chatting and moving.",
+      "camera": "wide crowd sweep ending on Gladias",
+      "dubbing": [
+        {
+          "speaker": "Narrator",
+          "emotion": "observational",
+          "ja": "人々は踊り、話し、ただ音楽を楽しんでいた。",
+          "en": "People danced, talked, and simply enjoyed the music."
+        }
+      ],
+      "keyframe_prompt": "Large anime concert field surrounded by tall soundproof walls, diverse crowd, privacy robes and band shirts, believable body movement, Gladias moving through crowd."
+    },
+    {
+      "id": "S14",
+      "duration_seconds": 9,
+      "scene": "Dreadknot performance",
+      "visual_action": "The metal singer dominates the stage; crowd erupts.",
+      "camera": "low-angle stage shot with controlled push",
+      "dubbing": [
+        {
+          "speaker": "DreadknotSinger",
+          "emotion": "ferocious metal performance",
+          "ja": "胸に怒りを抱き、鋼の刃で奴らを迎え撃て！",
+          "en": "Meet them with fury in our hearts, with shining steel!"
+        }
+      ],
+      "keyframe_prompt": "High-energy Japanese anime metal concert, rugged lead singer screaming into microphone, dramatic stage lights, dense cheering crowd, mature anime aesthetic."
+    },
+    {
+      "id": "S15",
+      "duration_seconds": 9,
+      "scene": "Why Gladias is here",
+      "visual_action": "Gladias opens the social-impact tax rubric on his device.",
+      "camera": "over-shoulder UI reveal then close-up",
+      "dubbing": [
+        {
+          "speaker": "Gladias",
+          "emotion": "professional focus",
+          "ja": "僕がここにいる理由は、音楽じゃない。監査だ。",
+          "en": "I'm not here for the music. I'm here for an audit."
+        },
+        {
+          "speaker": "Narrator",
+          "emotion": "expository",
+          "ja": "彼はステアリング機構のアコライト。今日は公共公演の社会的影響を評価する任務だった。",
+          "en": "He was an Acolyte of the Order of Steering. Today he had to evaluate the social impact of public performance."
+        }
+      ],
+      "keyframe_prompt": "Anime over-shoulder of Gladias at loud concert studying a five-tier social-impact tax rubric, serious analytical expression, stage blurred behind."
+    },
+    {
+      "id": "S16",
+      "duration_seconds": 9,
+      "scene": "Emerald listening mode",
+      "visual_action": "Emerald listens and produces uncertain conclusions. Gladias decides to trust his own judgment.",
+      "camera": "device UI close-up to skeptical eyes",
+      "dubbing": [
+        {
+          "speaker": "Emerald",
+          "emotion": "careful analytical uncertainty",
+          "ja": "関連する判例は少数です。分析の信頼度は高くありません。",
+          "en": "There are few relevant precedents. Confidence in this analysis is low."
+        },
+        {
+          "speaker": "Gladias",
+          "emotion": "quietly decisive",
+          "ja": "わかった。ここは僕の判断だ。",
+          "en": "Understood. I'll make the judgment here."
+        }
+      ],
+      "keyframe_prompt": "Close anime shot, Gladias listening while waveform and low-confidence indicator appear on device, skeptical intelligent eyes, concert lights behind."
+    },
+    {
+      "id": "S17",
+      "duration_seconds": 9,
+      "scene": "Moral dilemma",
+      "visual_action": "Intercut violent stage imagery with audience dancing and cheering.",
+      "camera": "rapid montage stage, audience, Gladias",
+      "dubbing": [
+        {
+          "speaker": "Narrator",
+          "emotion": "conflicted",
+          "ja": "歌は暴力的だった。だが、観客は憎しみに駆られているのではない。楽しんでいるだけにも見えた。",
+          "en": "The song was violent. But the audience did not seem driven by hatred. They seemed to be enjoying themselves."
+        }
+      ],
+      "keyframe_prompt": "Cinematic anime moral contrast, aggressive metal stage imagery and joyful dancing audience, Gladias centered between them with conflicted expression."
+    },
+    {
+      "id": "S18",
+      "duration_seconds": 9,
+      "scene": "Prediction score",
+      "visual_action": "Gladias sees prediction score 92; a small drop could delay his career.",
+      "camera": "holographic number close-up reflected in eyes",
+      "dubbing": [
+        {
+          "speaker": "Gladias",
+          "emotion": "tense whisper",
+          "ja": "九十二……。三点落ちれば、少なくとも一年止まる。",
+          "en": "Ninety-two... Three points lower, and I am delayed for at least a year."
+        }
+      ],
+      "keyframe_prompt": "Anime close-up of holographic prediction score 92 reflected in Gladias eyes, dark concert background, subtle anxiety, restrained lighting."
+    },
+    {
+      "id": "S19",
+      "duration_seconds": 9,
+      "scene": "Other Acolytes disagree",
+      "visual_action": "Team chat shows Tier 3 versus Tier 4; Gladias calculates the chance his vote matters.",
+      "camera": "over-shoulder UI with floating probability math",
+      "dubbing": [
+        {
+          "speaker": "Gladias",
+          "emotion": "anxious analytical",
+          "ja": "二十パーセント……いや、三十パーセント近くか。僕の一票が税率を変える可能性がある。",
+          "en": "Twenty percent... perhaps closer to thirty. My vote could change the tax rate."
+        }
+      ],
+      "keyframe_prompt": "Anime holographic chat showing conflicting Tier 3 and Tier 4 votes, probability calculations, Gladias tense and thoughtful, concert crowd out of focus."
+    },
+    {
+      "id": "S20",
+      "duration_seconds": 9,
+      "scene": "Tier 3 decision",
+      "visual_action": "The song ends, crowd cheers; Gladias selects Tier 3.",
+      "camera": "wide cheering crowd to snap close-up selection",
+      "dubbing": [
+        {
+          "speaker": "Gladias",
+          "emotion": "nervous courage",
+          "ja": "……決めた。第三階級だ。",
+          "en": "...I have decided. Tier Three."
+        }
+      ],
+      "keyframe_prompt": "Cinematic anime moment, cheering concert crowd, Gladias briefly illuminated with courage, hand device selecting Tier 3, decisive finger motion."
+    },
+    {
+      "id": "S21",
+      "duration_seconds": 9,
+      "scene": "Identity exposed",
+      "visual_action": "A crowd member shouts that an Order member is present. Gladias freezes and spots the exit.",
+      "camera": "whip-pan to Gladias, extreme eye close-up",
+      "dubbing": [
+        {
+          "speaker": "CrowdMan",
+          "emotion": "loud excited discovery",
+          "ja": "おい！あそこにオーダーのメンバーがいるぞ！",
+          "en": "Hey! There's an Order member over there!"
+        },
+        {
+          "speaker": "Gladias",
+          "emotion": "shock, breath caught",
+          "ja": "……しまった。",
+          "en": "...Damn."
+        }
+      ],
+      "keyframe_prompt": "Sudden tense anime concert shot, attendee pointing at Gladias, crowd turning, nearest exit visible, strong facial reaction."
+    },
+    {
+      "id": "S22",
+      "duration_seconds": 9,
+      "scene": "Decoy",
+      "visual_action": "Another privacy-robed person runs toward the fire exit, drawing phones toward himself.",
+      "camera": "kinetic chase pan then cut to Gladias",
+      "dubbing": [
+        {
+          "speaker": "Narrator",
+          "emotion": "urgent realization",
+          "ja": "別のローブ姿が走り出した。囮だ。誰かが、彼を逃がそうとしている。",
+          "en": "Another robed person ran. A decoy. Someone was trying to give him a chance to escape."
+        }
+      ],
+      "keyframe_prompt": "Dynamic anime concert chaos, privacy-robed decoy sprinting to fire exit while attendees point smartphones at him, Gladias realizing the distraction."
+    },
+    {
+      "id": "S23",
+      "duration_seconds": 9,
+      "scene": "The pursuer",
+      "visual_action": "Gladias turns and finds a large man pointing a device at his face.",
+      "camera": "low-angle over pursuer arm to Gladias",
+      "dubbing": [
+        {
+          "speaker": "Gladias",
+          "emotion": "panic held under control",
+          "ja": "逃げ道は……。",
+          "en": "An escape route..."
+        }
+      ],
+      "keyframe_prompt": "Tense anime confrontation, large burly attendee pointing hand device directly at Gladias, Gladias frozen, crowded concert blurred behind."
+    },
+    {
+      "id": "S24",
+      "duration_seconds": 9,
+      "scene": "The trick",
+      "visual_action": "Gladias points aside, distracts the man and snatches his device.",
+      "camera": "fast eye close-up, whip-pan, rapid hand action",
+      "dubbing": [
+        {
+          "speaker": "Gladias",
+          "emotion": "sudden playful mischief",
+          "ja": "待って。あれは、北極皇帝の新しい檄文じゃないか？",
+          "en": "Wait. Isn't that a new screed from the Arctic Emperor?"
+        }
+      ],
+      "keyframe_prompt": "Fast cinematic anime action, Gladias with mischievous half-smile pointing offscreen, burly man turns, Gladias reaches for device, dynamic motion."
+    },
+    {
+      "id": "S25",
+      "duration_seconds": 9,
+      "scene": "Delete and run",
+      "visual_action": "Gladias deletes recent media, sees his own photo, throws the device and runs.",
+      "camera": "rapid UI close-up, overhead throw, tracking sprint",
+      "dubbing": [
+        {
+          "speaker": "Gladias",
+          "emotion": "clipped emergency command",
+          "ja": "直近の一時間の音声、画像、映像を全削除。再起動。",
+          "en": "Delete all audio, images and video from the last hour. Reboot."
+        },
+        {
+          "speaker": "Device",
+          "emotion": "neutral system",
+          "ja": "四ファイルを削除しました。",
+          "en": "Four files deleted."
+        }
+      ],
+      "keyframe_prompt": "High-speed anime chase, stolen device showing deleted files and thumbnail of Gladias, screen black, Gladias throws device and sprints through crowd."
+    },
+    {
+      "id": "S26",
+      "duration_seconds": 9,
+      "scene": "Autobus escape",
+      "visual_action": "Gladias reaches the exit and boards a nearly empty local autobus.",
+      "camera": "exterior chase to quiet interior settling shot",
+      "dubbing": [
+        {
+          "speaker": "Narrator",
+          "emotion": "exhausted relief",
+          "ja": "彼はなんとか出口を抜け、空に近い自治バスへ飛び乗った。",
+          "en": "He made it out and jumped onto a nearly empty local bus."
+        }
+      ],
+      "keyframe_prompt": "Cinematic anime autonomous local bus at dusk, Gladias boarding hurriedly then sitting, two anonymous privacy-robed passengers and a school teenager with backpack, quiet interior."
+    },
+    {
+      "id": "S27",
+      "duration_seconds": 9,
+      "scene": "Homecoming",
+      "visual_action": "Gladias arrives home; Seila greets him and they discuss Dzego food.",
+      "camera": "warm interior medium shot, gentle push-in",
+      "dubbing": [
+        {
+          "speaker": "Gladias",
+          "emotion": "relieved domestic warmth",
+          "ja": "帰ったよ、セイラ。",
+          "en": "I'm home, Seila."
+        },
+        {
+          "speaker": "Seila",
+          "emotion": "relaxed affectionate",
+          "ja": "おかえり。夕食、どうする？",
+          "en": "Welcome home. What should we do for dinner?"
+        },
+        {
+          "speaker": "Gladias",
+          "emotion": "casual",
+          "ja": "あと七分でドゼゴのフードトラックが来る。またそれでいい？",
+          "en": "The Dzego food truck comes in seven minutes. Want that again?"
+        },
+        {
+          "speaker": "Seila",
+          "emotion": "easy agreement",
+          "ja": "いいね。",
+          "en": "Sure."
+        }
+      ],
+      "keyframe_prompt": "Warm mature anime family home, Gladias at doorway, Seila greeting him, wood-and-stone interior, evening light, intimate domestic realism."
+    },
+    {
+      "id": "S28",
+      "duration_seconds": 9,
+      "scene": "Kids rush in",
+      "visual_action": "Zven races downstairs to hug Gladias; Febric follows with compute box.",
+      "camera": "low-angle child run then family medium",
+      "dubbing": [
+        {
+          "speaker": "Zven",
+          "emotion": "ecstatic",
+          "ja": "パパが帰ってきた！",
+          "en": "Dad is home!"
+        },
+        {
+          "speaker": "Febric",
+          "emotion": "casual",
+          "ja": "僕は四番。",
+          "en": "Number four for me."
+        },
+        {
+          "speaker": "Zven",
+          "emotion": "competitive excitement",
+          "ja": "五番！僕の勝ち！",
+          "en": "Number five! I win!"
+        }
+      ],
+      "keyframe_prompt": "Heartwarming anime family scene, energetic boy running down stairs and hugging Gladias, lanky teenage boy with hand device linked to compact compute box, warm home lighting."
+    },
+    {
+      "id": "S29",
+      "duration_seconds": 9,
+      "scene": "Lily bad exam",
+      "visual_action": "Lily emerges looking down; Seila comforts her after a 60 percent history score. Lily retreats to couch with her game.",
+      "camera": "close-up Lily eyes, gentle side shot of embrace",
+      "dubbing": [
+        {
+          "speaker": "Lily",
+          "emotion": "embarrassed defensive",
+          "ja": "歴史のテスト、六十点。……もういい。",
+          "en": "Sixty percent on the history test. ...Whatever."
+        },
+        {
+          "speaker": "Seila",
+          "emotion": "soft reassurance",
+          "ja": "全部が得意じゃなくてもいいのよ。",
+          "en": "It's okay not to be good at everything."
+        }
+      ],
+      "keyframe_prompt": "Emotional mature anime family scene, shy young girl with long dark hair looking down after disappointing exam, mother figure gently embracing her, girl later on couch with handheld game, restrained emotion."
+    },
+    {
+      "id": "S30",
+      "duration_seconds": 9,
+      "scene": "Cliffhanger message",
+      "visual_action": "During family dinner Gladias gets two verified anonymous messages: the sender knows he is in the Order and has a request.",
+      "camera": "peaceful wide family shot to device close-up to extreme eye close-up",
+      "dubbing": [
+        {
+          "speaker": "Narrator",
+          "emotion": "quiet suspense",
+          "ja": "その夜、家族の食卓に、たった一つの通知が届いた。",
+          "en": "That night, a single notification arrived at the family table."
+        },
+        {
+          "speaker": "Anonymous",
+          "emotion": "text-only, calm menace",
+          "ja": "コンサートで君を見た。君がオーダーの一員だと知っている。",
+          "en": "I saw you at the concert. I know that you are in the Order."
+        },
+        {
+          "speaker": "Anonymous",
+          "emotion": "text-only, controlled",
+          "ja": "心配はいらない。報告するつもりはない。ただ、頼みがある。",
+          "en": "Don't worry. I don't intend to report you. But I have a request."
+        },
+        {
+          "speaker": "Gladias",
+          "emotion": "stunned silence",
+          "ja": "……誰だ。",
+          "en": "...Who are you?"
+        }
+      ],
+      "keyframe_prompt": "Cinematic final anime shot, warm family dinner table, Gladias black hand device glowing with ominous verified anonymous message, his face suddenly tense while family remains unaware, close-up on eyes, suspenseful end-of-episode lighting."
+    }
+  ],
+  "audio_direction": {
+    "mix": "Japanese dialogue centered and intelligible, cinematic foley, music ducking under dialogue",
+    "music_arc": "gentle orchestral-electronic opening → civic sci-fi motif → aggressive metal concert → tense escape percussion → warm home piano/strings → sparse suspense at final message"
+  },
+  "production_notes": {
+    "animation": "Prioritize readable full-body actions, hand interactions, cloth/hair motion and expressive facial acting.",
+    "lip_sync": "Japanese phoneme-aware lip sync with deliberate breaths and pauses.",
+    "character_consistency": "Use the same reference image/identity embedding for each recurring character across every shot.",
+    "subtitle_workflow": "Use English translations as subtitles, synchronized to Japanese speech.",
+    "source_fidelity": "Condensed adaptation preserving the major narrative beats and Chapter 1 cliffhanger, not a line-by-line screenplay."
+  }
+}

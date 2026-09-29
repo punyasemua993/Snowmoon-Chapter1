@@ -1,0 +1,2 @@
+asset_id,stage,filename,provider,model,model_version,seed,settings,reference_ids,prompt_file,generation_date,license_notes,sha256,status
+S01,keyframe,shots/S01/shot_S01_keyframe.png,,,,,,,03-prompts/SHOT_PROMPTS.md,,,planned
